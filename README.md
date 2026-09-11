@@ -8,7 +8,7 @@ Open in ChimeraX:
 ```
 open /path/to/symtools.py
 ```
-If desired, this can be automatically done at ChimeraX startup by adding the above line to Settings->Startup->Execute these commands at startup
+If desired, this can be automatically done at ChimeraX startup by adding the above line to Settings -> Startup -> Execute these commands at startup
 
 ## Running
 After opening, axes are found for map N using command ```symaxes #N``` and for model M with Cn or Dn symmetry (e.g., D2) ```symaxes #M D2```. This creates a new group which holds the model/map, as well as the axis/axes and any labels. For all symmetries but D2, only the principal axis is generated. For D2 symmetry, all three C2 axes are generated and labelled 1, 2, and 3.
